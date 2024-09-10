@@ -1,0 +1,8 @@
+1.position
+2.hover
+3.input type
+4.text-align
+5.column-gap
+6.justify-content: center;
+7.z-index pic ko samne le ata hai agar positive ho aur agar negative ho to us word k piche lejata hai 
+8.opacity dhundle pan ko kehte hain

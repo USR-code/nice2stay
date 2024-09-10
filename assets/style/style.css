@@ -1,0 +1,420 @@
+#body {
+  background-color: #677d6a;
+}
+#side-icons > div {
+  color: white;
+  padding: 4px;
+}
+
+#side-icons {
+  position: fixed;
+  width: 70px;
+  height: 100%;
+}
+
+#remaining {
+  /* ye side bar 70px aur baki wala calc ki madad se likha  */
+  width: calc(100% - 70px);
+  margin-left: 70px;
+}
+/* 2 dots bahir jane k lye and single dot andar k lye  */
+
+
+.top-image-section {
+  background-image: url("../images/homepage6.jpg");
+  object-fit: cover;
+  height: 80vh;
+
+  /* is se wo image puri ajaiegy  */
+
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+
+#logo-nice {
+  padding: 10px;
+  font-size: 10px;
+  width: 50%;
+}
+
+#discover {
+  color: white;
+  text-align: center;
+}
+#handpicked {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+#main {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  padding-top: 15px;
+}
+#search {
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: 150px;
+  justify-content: center;
+}
+
+#adults {
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: 150px;
+  justify-content: center;
+}
+
+#check {
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: 150px;
+  justify-content: center;
+}
+
+#sea {
+  background-color: green;
+  height: 30px;
+  text-align: center;
+  width: 60px;
+  /* padding-top: 2px; */
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+#href {
+  text-align: center;
+  padding-top: 15px;
+
+  /* a:hover {
+    color: red;
+
+  } */
+}
+#link {
+  color: white;
+}
+
+/* grid style */
+/* .item1 { grid-area: header; }
+.item2 { display :flex;flex-direction:column;grid-area: menu;gap:10px; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header header header header header'
+    'menu main main main main main main main'
+    'menu footer footer footer footer footer footer footer';
+  gap: 1px;
+  background-color: #2196F3;
+  /* padding: 10px; */
+
+/* 
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+/* #remaining-1{
+  color:white;
+  padding-top:15px;
+} */
+
+#header-section {
+  width: 100%;
+  display: flex;
+}
+
+#header-1 {
+  width: 50%;
+  color: white;
+  padding: 20px;
+}
+
+#header-2 {
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+}
+#header-2-1 {
+  width: 50%;
+  padding: 20px;
+}
+#header-2-2 {
+  width: 50%;
+  padding: 20px;
+}
+
+#child-header {
+  background-color: green;
+  height: 30px;
+  text-align: center;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+#our-destinations {
+  width: 60%;
+  color: white;
+  padding: 20px;
+}
+
+#image-card {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+#image-card::-webkit-scrollbar {
+  display: none;
+}
+
+/* scroll bar apply horhy lekin hide hogai hai.  */
+
+#image-card > div {
+  min-width: 25%;
+}
+
+#italy-pic {
+  width: 25%;
+  padding: 16px;
+  img {
+    border-radius: 10px;
+    cursor: pointer;
+    overflow-x: scroll;
+    transition: width 2s;
+    box-shadow: 10px 10px #0000007d;
+  }
+  img:hover {
+    width: 200px;
+  }
+}
+
+#italy {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#italy-notes {
+  width: 100%;
+  cursor: pointer;
+  transition: width 2s;
+}
+
+#Portugal-pic {
+  width: 25%;
+  padding: 16px;
+  img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 2s;
+    box-shadow: 10px 10px #0000007d;
+  }
+  img:hover {
+    width: 200px;
+  }
+}
+
+#Portugal {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#Portugal-notes {
+  width: 100%;
+  cursor: pointer;
+}
+
+#France-pic {
+  width: 25%;
+  padding: 16px;
+  img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 2s;
+    box-shadow: 10px 10px #0000007d;
+  }
+  img:hover {
+    width: 200px;
+  }
+}
+
+#France {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#France-notes {
+  width: 100%;
+  cursor: pointer;
+}
+
+#Spain-pic {
+  width: 25%;
+  padding: 16px;
+  img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 2s;
+    box-shadow: 10px 10px #0000007d;
+  }
+  img:hover {
+    width: 200px;
+  }
+}
+
+#Spain {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#Spain-notes {
+  width: 100%;
+  cursor: pointer;
+}
+
+#Greece-pic {
+  width: 25%;
+  padding: 16px;
+  img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 2s;
+    box-shadow: 10px 10px #0000007d;
+  }
+  img:hover {
+    width: 200px;
+  }
+}
+
+#Greece {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#Greece-notes {
+  width: 100%;
+  cursor: pointer;
+}
+
+#Austria-pic {
+  width: 25%;
+  padding: 16px;
+
+  img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 2s;
+    box-shadow: 10px 10px #0000007d;
+  }
+  img:hover {
+    width: 200px;
+  }
+}
+
+#Austria {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#Austria-notes {
+  width: 100%;
+  cursor: pointer;
+}
+
+#main-send {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#send-an {
+  width: 50%;
+}
+
+#send-an-enquiry {
+  background-color: green;
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 20px;
+}
+
+#Tailor-made-advice {
+  width: 50%;
+}
+
+#main-consious {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#Conscious-collection {
+  width: 50%;
+  padding: 20px;
+}
+
+#show-main {
+  width: 50%;
+}
+
+#show-all {
+  text-align: end;
+}
+
+#link-show-all {
+  color: black;
+  cursor: pointer;
+}
+
+#main-whatsapp {
+  width: 80px;
+  position: fixed;
+  bottom: 8px;
+  right: 20px;
+}
+
+#whatsapp-image {
+  cursor: pointer;
+
+  img:hover {
+    width: 90px;
+    background-color: black;
+    border-radius: 30px;
+    opacity: 0.3;
+  }
+  /* img:hover {
+  background-color: yellow;
+} */
+}
+
+#w3{
+  font-size:40px;
+  text-align:center;
+  color:blue;
+}
+
+
+
+
+
+
+
+                                
+                          
+                                
+
